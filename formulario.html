@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Página com formulário</title>
+    <meta charset="utf-8"  />
+  </head>
+  <body>
+    <h1>Formulário com informações de contato</h1>
+    <form action="pagina.php" method="get">
+      <label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nome"  /> <br />
+      <label for="idade">Idade: </label>
+      <input type="number" max="120" min="0" name="idade"  /> <br />
+      <label for="email">Email: </label>
+      <input type="email" name="email"  /> <br />
+      <label for="tel">Telefone: </label>
+      <input type="tel" name="tel" required  /> <br />
+      <input type="submit" name="Enviar"  />
+    </form>
+  </body>
+</html>
