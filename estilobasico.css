@@ -1,0 +1,50 @@
+body{
+  font-family: verdana, sans-serif;
+}
+
+header{
+  background-color: green;
+}
+
+main{
+  background-color: rgb(0,0,255);
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+table{
+  border: 2px dotted #FFFFFF;
+  margin: auto;
+}
+
+td{
+  border: 2px solid #FFFFFF;
+}
+
+li{
+  font-weight: bold;
+}
+
+.sublinhado{
+  text-decoration: underline;
+}
+
+.centralizado{
+  text-align: center;
+}
+
+.negrito{
+  font-weight: bold;
+}
+
+a{
+  color: yellow;
+}
+
+a:hover{
+  color: #FFFFFF;
+}
