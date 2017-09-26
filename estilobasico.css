@@ -27,6 +27,7 @@ td{
 
 li{
   font-weight: bold;
+  display: inline;
 }
 
 .sublinhado{
@@ -41,10 +42,21 @@ li{
   font-weight: bold;
 }
 
-a{
-  color: yellow;
+ul{
+  list-style-type: lower-latin;
+  list-style-position: inside;
+  text-align: center;
 }
 
-a:hover{
+a:link, a:visited{
+  background-color: #F44336;
   color: #FFFFFF;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active{
+  background-color: #FF0000;
 }
