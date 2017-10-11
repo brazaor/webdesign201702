@@ -1,3 +1,8 @@
+@font-face {
+    font-family: minhafonte;
+    src: url(../fonts/ufontscomepisodei.woff);
+}
+
 .comportamento_linha{
   display: inline;
 }
@@ -8,6 +13,7 @@
 }
 
 header{
+  font-family: minhafonte;
   text-align: center;
 }
 
@@ -19,4 +25,14 @@ footer{
   color: #FFFFFF;
   text-align: center;
   width: 100%;
+}
+
+nav{
+  float: left;
+  margin-right: 30px;
+  height: 250px;
+}
+
+ul li{
+  list-style-type: none;
 }
